@@ -12,7 +12,7 @@ time_zero=0.0
 time_start=0.0
 time_end=0.0
 gpio_last=0
-constant=1.79
+constant=0.00292
 
 now=datetime.datetime.now()
 
@@ -46,10 +46,10 @@ while True:
     tot_cnt+=1
     time_end=time.time()
 
-    print('\nLiters/min ', round((rate_cnt*constant)/(time_end-time_start),2))
-    print('\tTotal Liters ', round(tot_cnt*constant,1))
-    print('\tTime (min&clock) ', round((time.time()-time_zero)/60,2), '\t', time.asctime(time.localtime(time.time())), '\n')
+    print('Liters/min ', round((rate_cnt*constant)/(time_end-time_start),2))
+    print('Total Liters ', round(tot_cnt*constant,3))
+    print('Time (min&clock) ', round((time.time()-time_zero)/60,2), time.asctime(time.localtime(time.time())))
 
     file.write('\nLiters/min '+str(round((rate_cnt*constant)/(time_end-time_start),2)))
-    file.write('\tTotal Liters '+str(round(tot_cnt*constant,1)))
+    file.write('\tTotal Liters '+str(round(tot_cnt*constant,3)))
     file.write('\tTime (min&clock) '+str(round((time.time()-time_zero)/60,2))+'\t'+ str(time.asctime(time.localtime(time.time())))+'\n')
