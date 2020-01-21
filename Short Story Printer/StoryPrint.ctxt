@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=args
+comment0.target=void\ main(java.lang.String[])
+comment1.params=
+comment1.target=void\ main()
+comment2.params=
+comment2.target=void\ getPrinters()
+comment3.params=g\ pf\ page
+comment3.target=int\ print(java.awt.Graphics,\ java.awt.print.PageFormat,\ int)
+comment4.params=printerName\ text
+comment4.target=void\ printString(java.lang.String,\ java.lang.String)
+comment5.params=printerName\ bytes
+comment5.target=void\ printBytes(java.lang.String,\ byte[])
+comment6.params=printerName\ services
+comment6.target=javax.print.PrintService\ findPrintService(java.lang.String,\ javax.print.PrintService[])
+numComments=7

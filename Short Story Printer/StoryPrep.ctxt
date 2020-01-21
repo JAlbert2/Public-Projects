@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=args
+comment0.target=void\ main(java.lang.String[])
+comment1.params=story
+comment1.target=java.lang.String\ format(java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ readStory()
+comment3.params=story2
+comment3.target=void\ writeStory(java.lang.String)
+numComments=4

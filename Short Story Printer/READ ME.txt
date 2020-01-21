@@ -1,0 +1,49 @@
+Created by Jonah Albert. Project started by Mrs. Reilly.
+
+TO RUN PROGRAM
+1. Click on the top left menu.
+2. Hover over the programming menu.
+3. Open BlueJ. 
+4. Wait for it to boot up
+5. Right click on StoryPrint.
+6. Click on the void main(String[] args) line. 
+7. Program will open and a button will appear.
+8. If button does not appear, close window and repeat steps 4-7
+Clicking the button will print a random story
+-Automatically loops
+
+TO CLOSE
+Close the screen with the button. 
+Program will terminate
+
+SHUTDOWN
+Close the program.
+Close BlueJ
+Click on the Raspberry in the top left corner.
+Click Shutdown.
+Shutdown.
+
+ADDING NEW STORIES/JOKES
+ENTRIES MUST BE FORMATTED FIRST!!
+-The program automatically formats for length
+-Any names longer than two words, code must be changed. Documentation is in the code, navigate to the StoryPrep box, double click. Search for the if statement that contains "Beek". It only appears once, so ctrl+F works here
+-Story must end in a period, comma, or hyphen 
+Navigate to printer2 on the desktop
+Add the .txt file
+Rename it to the next number in the list
+MUST BE A NUMBER TO BE RANDOM!!!!!
+
+CHANGING PAPER
+Printer will light up when paper is low. It will have a few more prints before it is completely out.
+To change, slide the light grey slider towards the lights, compartment will pop open
+Fully open the door
+Take empty/ near empty roll out
+Place new roll in, feeding the paper under
+Place end of roll outside printer
+Close door fully
+Printer will auto feed and cut a small piece
+Ready to go
+
+Any questions, email jonah.albert2@gmail.com
+
+//Build on Eclipse Neon 2, Runs on BlueJ
